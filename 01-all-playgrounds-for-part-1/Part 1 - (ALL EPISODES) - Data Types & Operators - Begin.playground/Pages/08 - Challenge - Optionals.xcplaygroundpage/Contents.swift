@@ -13,7 +13,8 @@
 
 // TODO: Write solution here
 let hasAllergies = true
-
+var dogName: String?
+dogName = hasAllergies ? nil : "Mango"
 /*:
  ## Challenge 2
  
@@ -23,8 +24,8 @@ let hasAllergies = true
  */
 
 // TODO: Write solution here
-
-
+let parsedInt = Int("10")
+// This an optional since the string inside may or may not be an integer (it can also be a letter). This is why Swift made it an optional.
 
 
 /*:
@@ -37,4 +38,5 @@ let hasAllergies = true
  */
 
 // TODO: Write solution here
-
+let newParsedInt = Int("cat")
+// Since the int "cat" isn't an Int, the constant will be nil. Same reason as in challenge 2

@@ -9,7 +9,8 @@
  Then, create a constant named `isVotingAge` that uses Boolean logic to determine if the value stored in `myAge` denotes someone of voting age. In my part of the world, the voting age is 18, so I'll use that here.
 */
 
-// TODO: Write solution here
+let myAge = 21
+let isVotingAge = myAge >= 18
 
 
 /*:
@@ -22,7 +23,9 @@
  Then, create a third constant named `authorIsStudent` that uses string equality to determine if the values of `student` and `author` are equal.
  */
 
-// TODO: Write solution here
+let student = "Bea"
+let author = "Matt Galloway"
+let authorIsStudent = student == author
 
 
 
@@ -34,7 +37,7 @@
  The constants `student` and an `author` were declared above in Challenge 2, so you do not need to redeclare them here.
  */
 
-// TODO: Write solution here
+let studentBeforeAuthor = student < author
 
 
 

@@ -2,6 +2,8 @@
 //: ## Episode 02: Xcode Playgrounds
 import Foundation
 
-var str = "Hello, playground"
+var welcomeMessage = "Hello, playground"
+let goodbyeMesage = "See you soon!"
+//print(goodbyeMesage)
 
 //: [⇒ Next: 03 - Booleans & Comparison Operators](@next)
